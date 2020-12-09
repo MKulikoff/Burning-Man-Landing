@@ -175,3 +175,83 @@ footer p {
 .tagname {
 	margin-left: 55px;  
 }
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1140px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	} 
+	.description1, .description2 {
+	width: 48%; 
+	}
+	.gallery img:nth-child(1) {
+		width: 25%;
+	}
+	.gallery img:nth-child(2) {
+		width: 25%;
+	}
+	.gallery img:nth-child(3) {
+		width: 45%;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+	.gallery img:nth-child(3) {
+		width: 42%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 540px; 
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		width: 100%;
+		padding: 0, 15;
+	}
+	.menu {
+		display: none; 
+	}
+	.description1, .description2 {
+		width: 100%;
+		text-align: center;
+		margin: 10px;  
+	}
+	.description {
+		flex-wrap: wrap; 
+	}
+	.gallery img:nth-child(1) {
+		width: 100%;
+	}
+	.gallery img:nth-child(2) {
+		width: 100%;
+	}
+	.gallery img:nth-child(3) {
+		width: 93%;
+	}
+	.gallery {
+		flex-wrap: wrap; 
+	}
+	.gallery img {
+		margin-bottom: 10px; 
+		justify-content: space-around;
+	}
+	h2 {
+		text-align: center; 
+	}
+	.offer h1 {
+		line-height: 1.2em; 
+	}
+}
